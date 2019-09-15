@@ -1,0 +1,161 @@
+body{
+    margin:0;
+}
+    
+
+/* ----------top-bar---------- */
+
+#topbar
+    {
+        padding: 12px 80px;
+        border-bottom: 1px solid #ccc;
+        /* position: sticky; */
+        top: 0;
+        background-color: white;
+        
+}
+
+#left-menu
+ {
+    display: flex;
+     align-items: center;
+ }
+
+#logo
+{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 400px;
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+    margin-right: 48px;
+}
+
+#menu{
+    margin:0;
+    margin-right: 24px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+#right-menu{
+    display: flex;
+    align-items: center;
+}
+
+#search-container > input
+{
+    width:100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    left:30px;
+}
+#search-box{
+    text-align: center;
+    outline: none;
+  
+}
+ 
+ #search-container{
+    width:320px;
+    position: relative;
+   right:200px;
+ } 
+ 
+
+ #search-icon
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    left: 16px;
+    top: 7px;
+    z-index: 10;
+}
+
+#cart{
+    width: 20px;
+    height: 22px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+#profile{
+    width:48px;
+    height:48px;
+    border-radius: 24px;
+    }
+
+.fas fa-user-circle{
+      width: 80px;
+      
+    }
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+}
+ 
+
+ a{
+     text-decoration: none;
+     color:black;
+ }
+
+ 
+ 
+#emoji{
+    width:500px;
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:30%;
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+
+/* ------------footer------------ */
+
+footer{
+    background-color:#000000;
+    padding:10px 25% 90px 25%;
+    position: relative;
+    line-height:22px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    bottom:  0px;
+    color:white;
+    font-size:10px;
+    height:80px;
+    width:100%;
+    display:flex;
+    
+
+}
+
+/* --------------project-logo-------------- */
+
+#project-logo{
+position:relative;
+width:80px;
+height: 45px;
+left:300px;
+top:100px;
+}
