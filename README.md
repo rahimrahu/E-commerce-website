@@ -1,2 +1,2 @@
-# E-commerce-website by using Javascript
+# E-commerce website by using Javascript
 
