@@ -116,13 +116,13 @@ body{
 
 
   #cart-count{
-    position: absolute; 
-     top: -34px;
+  position: absolute; 
+     top: -20px;
     left:152px;
     height: 20px;
     padding-left:12px;
     padding-right:5px;
-    border-radius: 55%;
+    border-radius: 50%;
     text-align: center;
     background-color:  #009688;
     color: white;
