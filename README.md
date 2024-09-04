@@ -1,1 +1,2 @@
-# E-commerce-website Javascript Assignment
+# E-commerce-website by using Javascript
+
